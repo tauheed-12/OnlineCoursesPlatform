@@ -1,0 +1,102 @@
+.Student_Login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Student_Login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Student_Login label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .Student_Login input[type='email'],
+  .Student_Login input[type='password'],
+  .Student_Login button[type='submit'] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .Student_Login button[type='submit'] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Student_Login button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  .Student_Login a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+  }
+  
+  .Student_Login a:hover {
+    text-decoration: underline;
+  }
+
+  .SuperAdmin_login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SuperAdmin_login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .SuperAdmin_login label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .SuperAdmin_login input[type='email'],
+  .SuperAdmin_login input[type='password'],
+  .SuperAdmin_login button[type='submit'] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .SuperAdmin_login button[type='submit'] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .SuperAdmin_login button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  .SuperAdmin_login a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+  }
+  
+  .SuperAdmin_login a:hover {
+    text-decoration: underline;
+  }
+  

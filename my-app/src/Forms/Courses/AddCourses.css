@@ -1,0 +1,53 @@
+.AddCourses {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #e2b8b8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .AddCourses form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .AddCourses label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .AddCourses input[type='text'],
+  .AddCourses select,
+  .AddCourses textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .AddCourses input[type='file'] {
+    margin-bottom: 15px;
+  }
+  
+  .AddCourses textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .AddCourses input[type='submit'] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .AddCourses input[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
